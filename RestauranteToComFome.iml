@@ -21,7 +21,9 @@
   <component name="FacetManager">
     <facet type="hibernate" name="Hibernate">
       <configuration>
-        <datasource-map />
+        <datasource-map>
+          <unit-entry name="Gorm" />
+        </datasource-map>
         <naming-strategy-map />
       </configuration>
     </facet>
@@ -73,5 +75,7 @@
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="groovy-4.0.2" level="project" />
+    <orderEntry type="library" name="groovy-4.0.2" level="project" />
   </component>
 </module>
